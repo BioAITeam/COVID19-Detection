@@ -59,6 +59,21 @@ A curated version, including the partition into train, validation and test sets,
 ## Products
 - D. Arias-Garzón et al., “COVID-19 detection in X-ray images using convolutional neural networks,” *Mach. Learn. with Appl.*, vol. 6, p. 100138, Dec. 2021, doi: [10.1016/j.mlwa.2021.100138][1].
 
+```
+@article{ARIASGARZON2021100138,
+title = {COVID-19 detection in X-ray images using convolutional neural networks},
+journal = {Machine Learning with Applications},
+volume = {6},
+pages = {100138},
+year = {2021},
+issn = {2666-8270},
+doi = {https://doi.org/10.1016/j.mlwa.2021.100138},
+url = {https://www.sciencedirect.com/science/article/pii/S2666827021000694},
+author = {Daniel Arias-Garzón and Jesús Alejandro Alzate-Grisales and Simon Orozco-Arias and Harold Brayan Arteaga-Arteaga and Mario Alejandro Bravo-Ortiz and Alejandro Mora-Rubio and Jose Manuel Saborit-Torres and Joaquim Ángel Montell Serrano and Maria {de la Iglesia Vayá} and Oscar Cardona-Morales and Reinel Tabares-Soto},
+keywords = {COVID-19, Deep learning, Transfer learning, X-ray, Segmentation}
+}
+```
+
 -----
 
 ## Acknowledgment
