@@ -1,0 +1,9 @@
+tensorflow-gpu
+matplotlib
+opencv-python
+tqdm
+pydicom
+scikit-learn
+seaborn
+ipython
+scikit-image
