@@ -1,7 +1,7 @@
 # Deep Learning Applied to COVID-19 Detection in X-Ray Images
 
 ## Summary
-This repository contains the source code developed during the course of our research project, intended to develop a Computer Aided Diagnosis (CAD) tool for the COVID-19 disease using X-Ray images and Deep Learning methods. The code available covers from database processing and manipulation, preprocessing techniques to training, and evaluation, of classification and object detection models. It is recommended to run these notebooks using the [Google Colab](https://colab.research.google.com/) platform.
+This repository contains the source code developed during the course of our research project, intended to develop a Computer Aided Diagnosis (CAD) tool for the COVID-19 disease using Chest X-Ray images (CXR) and Deep Learning methods. The code available covers from database processing and manipulation, preprocessing techniques to training, and evaluation, of classification and object detection models. It is recommended to run these notebooks using the [Google Colab](https://colab.research.google.com/) platform.
 
 -----
 
@@ -9,20 +9,22 @@ This repository contains the source code developed during the course of our rese
 ### Folders
 - **utils:** contains Python files (.py) with various useful functions used in most notebooks. These functions include metrics, preprocessing operations, GradCam, among others.
 
+- **Cov-Caldas Dataset** contains notebooks associated with data preparation and analysis for Cov-Caldas CXR dataset.
+
 ### Files
 - **Database Processing - NPY from DICOM:** create a binary file (.npy) containing all the images from a directory structure and DICOM format. Faster load times and saves disk space.
 
-- **Database Processing - Frontal and Lateral Projection Filtering:** training and evaluation of a model to classify chest X-Ray images based on the projection it was taken from.
+- **Database Processing - Frontal and Lateral Projection Filtering:** training and evaluation of a model to classify CXR based on the projection it was taken from.
 
-- **Database Processing - Lung Segmentation:** training and evaluation of a U-Net model to perform semantic segmentation of the lung region in chest X-Ray images.
+- **Database Processing - Lung Segmentation:** training and evaluation of a U-Net model to perform semantic segmentation of the lung region in CXR.
 
-- **COVID-19 Classification with VGG16 and VGG19:** training and evaluation of VGG16 and VGG19 models to classify chest X-Ray images into positive or negative for COVID-19.
+- **COVID-19 Classification with VGG16 and VGG19:** training and evaluation of VGG16 and VGG19 models to classify CXR into positive or negative for COVID-19.
 
 - **COVID-19 Detection in X-Ray Images using Convolutional Neural Networks:** full experimental setup for the paper *[COVID-19 detection in X-ray images using convolutional neural networks][1]* (2021).
 
-- **GGO Localization with Bounding Boxes and YOLOv5:** training and evaluation of the [YOLOv5][2] algorithm to detect Ground Glass Opacities (GGO) in chest X-Ray images.
+- **GGO Localization with Bounding Boxes and YOLOv5:** training and evaluation of the [YOLOv5][2] algorithm to detect Ground Glass Opacities (GGO) in CXR.
 
-- **GGO Segmentation:** training and evaluation of multiple semantic segmentation models to detect Ground Glass Opacities (GGO) in chest X-Ray images.
+- **GGO Segmentation:** training and evaluation of multiple semantic segmentation models to detect Ground Glass Opacities (GGO) in CXR.
 
 -----
 
